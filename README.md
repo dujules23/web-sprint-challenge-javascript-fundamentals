@@ -29,7 +29,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 .forEach is basically a for loop and does not return anything. .map takes information and puts it into another array.
 
 2. Explain the difference between a callback and a higher order function.
-A callback is a function used within another function that utilizes data from that function.
+A callback is a function used within another function that utilizes data from that function. A high order function takes other functions as arguements.
 
 3. What is closure?
 Closure is when a Function does not have variable that is defined with it in so it must reach out for data.

@@ -95,15 +95,19 @@ function consume (a, b, cb){
   * Create a function named multiply that returns the product of two numbers 
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
-function add(a, b){
-  return consume(a+b);
+function add(consume){
+  let sum = a + b
+  return consume (sum);
+  
 }
 
-function multilply(a, b){
-  return consume(a*b);
+function multilply(consume){
+  let product = a * b;
+  return consume(product);
 }
 
-function greeting(firstName, lastName){
+function greeting(firstName, lastName, consume){
+    
   return consume(`Hello ${firstName} ${lastName}, nice to meet you!`)
 }
 
